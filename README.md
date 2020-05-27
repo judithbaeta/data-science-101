@@ -17,6 +17,24 @@ I believe this data can be put to work to help us understand big issues of cruci
 
 **Here** I want to share some of the practise exercises as well as links to useful resources I have found along the way. 
 
-**Disclaimer:** The exercises aren't necessarily about topics related to sustainable development as I'm following along the suggested programme of this course. However, this is definitely I'll look to work on in the near future.
+_**Disclaimer:** The exercises aren't necessarily about topics related to sustainable development as I'm following along the suggested programme of this course. However, this is definitely I'll look to work on in the near future._
 
 # Contents
+
+### Exercise 1. [Linear Regression MV Examaple](https://github.com/judithbaeta/data-science-101/blob/master/Linear%20Regression%20MV%20Example.ipynb)
+A simple multivariate linear regression model, including oith numerical and categorical variables.
+We explore the sales price od second-hand cars.
+
+- Dataset: [1.04. Real-life example.csv](https://github.com/judithbaeta/data-science-101/blob/master/1.04.%20Real-life%20example.csv)
+
+### Exercise 2. [Logistic Regression](https://github.com/judithbaeta/data-science-101/blob/master/Logistic%20Regression%20Exercise.ipynb)
+Built a logistic regression based to measure the efforts of a marketing campaign of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit.
+
+- Dataset: [bank-data.csv](https://github.com/judithbaeta/data-science-101/blob/master/Bank-data.csv)
+
+### Exercise 3. [Market Segmentation with Cluster Analysis](https://github.com/judithbaeta/data-science-101/blob/master/Market%20Segmentation%20with%20Cluster%20Analysis.ipynb)
+A market segmentation exercise using cluser analysys with k-means.
+We have data from a retail shop. Each observation is a different client and we have a score for their customer satisfaction and brand loyalty.
+
+- Dataset: [3.12. Example](https://github.com/judithbaeta/data-science-101/blob/master/3.12.%20Example.csv)
+

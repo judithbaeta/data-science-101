@@ -18,7 +18,7 @@ I believe this data can be put to work to help us understand big issues of cruci
 
 _**Disclaimer:** The exercises aren't necessarily about topics related to sustainable development as I'm following along the suggested programme of the course. However, this is definitely I'll look to work on in the near future._
 
-# Contents
+# Practical Exercises (so far...)
 
 ### Linear Regression
 A simple multivariate linear regression model, including oith numerical and categorical variables.

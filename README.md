@@ -43,13 +43,15 @@ We have data from a retail shop. Each observation is a different client and we h
 ### Deep Learning
 We are given data from an audiobook app. We want to build a Machine Learning algorithm based on our data that can predict if a customer is likely to make a purchase from the audiobook company again. We want to focus our marketing efforts on individuals likely to convert again in order to improve sales and profitability of the business.
 
-- Notebook:
-- Dataset:
-
 #### The solution outlined:
 1. Preprocessing. The dataset has been shuffled, balanced and split into training, validation and test follwing a 80-10-10 rule. Then, we have dataset in tensor-friendly format *.npz
 
-2. The Model: a ML algorithm with TensorFlow.
+Dataset: [Audiobooks_data.csv](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_data.csv)
+Notebook: [Audiobooks_TensorFlow_Preprocessing.ipynb](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_TensorFlow_Preprocessing.ipynb)
+
+2. The Model: a ML algorithm with TensorFlow
+
+Notebook: [Audiobooks_TensorFlow_Model.ipynb](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_TensorFlow_Model.ipynb)
 
 - Input layer has 10 nodes
 
@@ -65,9 +67,7 @@ We are given data from an audiobook app. We want to build a Machine Learning alg
 - Targets: The data was gathered from the audiobook app. The inputs represent 2 years worth of engagement. We're doing supervised learning so we took an extra 6-month period of data to check conversion (targets), essentially whether the customer bought another book. It's a boolean, 1= the customer converted, 0= didn’t. Thus, the output layer has 2 output nodes as there are only two target possibilities, 0 and 1.
 
 - Depth: 2 hidden layers
-
 - Width: 50 hidden unites on each hidden layer. 50 provides enough complexity, and we don’t want to put too many units initially so we can complete the learning as fast as possible.
-
 - Activation functions: we've chosen ReLu on the hidden layers and Softmax for the output layer (classifyier) 
 - Optimizer: Adam
 - Loss: Sparse Categorical Crossentropy to apply one-hot encoding to the targets

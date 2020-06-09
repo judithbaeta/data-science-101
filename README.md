@@ -46,8 +46,8 @@ We are given data from an audiobook app. We want to build a Machine Learning alg
 #### The solution outlined:
 1. Preprocessing. The dataset has been shuffled, balanced and split into training, validation and test follwing a 80-10-10 rule. Then, we have dataset in tensor-friendly format *.npz
 
-Dataset: [Audiobooks_data.csv](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_data.csv)
-Notebook: [Audiobooks_TensorFlow_Preprocessing.ipynb](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_TensorFlow_Preprocessing.ipynb)
+- Dataset: [Audiobooks_data.csv](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_data.csv)
+- Notebook: [Audiobooks_TensorFlow_Preprocessing.ipynb](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_TensorFlow_Preprocessing.ipynb)
 
 2. The Model: a ML algorithm with TensorFlow
 

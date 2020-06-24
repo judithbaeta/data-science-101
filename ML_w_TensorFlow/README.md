@@ -8,14 +8,14 @@ We want to build a Machine Learning algorithm based on our data that can predict
 
 1. Preprocessing. The dataset has been shuffled, balanced and split into training, validation and test follwing a 80-10-10 rule. Then, we have dataset in tensor-friendly format *.npz
 
-- Dataset: [Audiobooks_data.csv
-- Notebook: [Audiobooks_TensorFlow_Preprocessing.ipynb
+- Raw Data: [Audiobooks_data.csv](https://github.com/judithbaeta/data-science-101/blob/master/ML_w_TensorFlow/Audiobooks_data.csv)
+- Jupyter Notebook: [Audiobooks_TensorFlow_Preprocessing.ipynb](https://github.com/judithbaeta/data-science-101/blob/master/ML_w_TensorFlow/Audiobooks_TensorFlow_Preprocessing.ipynb)
 
 2. The Model: a ML algorithm with TensorFlow
 
-Notebook: [Audiobooks_TensorFlow_Model.ipynb](https://github.com/judithbaeta/data-science-101/blob/master/Audiobooks_TensorFlow_Model.ipynb)
+Jupyter Notebook: [Audiobooks_TensorFlow_Model.ipynb](https://github.com/judithbaeta/data-science-101/blob/master/ML_w_TensorFlow/Audiobooks_TensorFlow_Algorthm.ipynb)
 
-- Input layer has 10 nodes
+- The Input layer has 10 nodes:
 
     - `book_length_overall` and `book_length_averge`: The overall book length is the sum of the lengths of purchases. The     average length is the sum divided by the number of purchases. For an individual that has made a single purchase, overall length = average length. The number of purchases is contained in this variable.
     - `price_overall` and `price_average`. Price is in dollars although that’s no relevant for the algorithm.
